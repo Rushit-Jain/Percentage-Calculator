@@ -1,0 +1,74 @@
+<html>
+    <head>
+    <title>PERCENTAGE CALLCULATOR</title>
+        <style>
+            #d1{
+                background-color : aquamarine;
+                height: 100px;
+                text-align: center;
+                color: white;
+                font-size: 20px;
+                }
+            #d2{
+                color:white;
+                background-color: black;
+                text-align: center;
+            }
+            #num,#deno{
+                
+                border-width: 10px;
+                border-color:mistyrose;
+                height:50px;        
+                width:200px;
+                color:black;
+                background-color: white;
+                align-items: center;
+            }
+            #h{
+                color : ghostwhite;
+                text-align: center;
+            }
+            #h1{
+                color : ghostwhite;
+                text-align:justify;
+            }
+            #ans{
+                border-color: aquamarine;
+                border-width: thick;
+                background-color : black;
+                text-align: center;
+                color: white;
+                font-size: 20px;
+            }
+            #add,#reset,#calc{
+                border-width: 5px;
+                border-color:white;
+                height:50px;
+                width : 180px;
+            }
+        </style>
+    </head>
+    <body style=" background-color: black" >
+         <h2><p id="h">PERCENTAGE CAlCULTAOR</p></h2>
+        <form>
+           
+        <div id="d1">
+             <input type="text" id="num" placeholder="numerator value" color="white"><br>
+        <input type="text" id="deno" placeholder="denominator value">
+        </div>
+       
+        
+        <p id="ans"></p><br>
+        <div id="d2"><input type="button" id="calc" value="calculate total percentage"><br><br>
+        <input type="reset" id="add" value="add values" ><br><br>
+        <input type="reset" id="reset" value="reset calc" ><br><br>
+        <!--<input type="button" id="indper" value="calc % of current number" ><br><br>
+            -->
+        </div>
+        </form>
+        <pre id="h1">STEPS : <br><br>i  - ENTER VALUES THEN CLICK <BR>     ON ADD VALUES <br><BR>ii - IF INVALID INPUT IS GIVEN <br>     CALCULATOR WOULD RESET</pre>
+        <script src="js/index.js"></script>
+        <script src="cordova.js"></script>
+    </body>
+
+</html>
